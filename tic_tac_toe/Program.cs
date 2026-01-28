@@ -49,7 +49,7 @@ namespace TicTacToe
                 if (gameWon)
                 {
                     gameBoard.PrintBoard(board);
-                    Console.WriteLine($"Player {currentPlayer} wins!");
+                    Console.WriteLine($"\nPlayer {currentPlayer} wins!");
                     break;
                 }
                 else if(Array.TrueForAll(board, c => c == 'X' || c == 'O'))
@@ -62,7 +62,7 @@ namespace TicTacToe
                     currentPlayer = currentPlayer == 1 ? 2 : 1;
             }
 
-            Console.WriteLine("\nThanks for playing!");
+            Console.WriteLine("Thanks for playing!");
         }
     }
 }
