@@ -24,9 +24,12 @@ namespace TicTacToe
 
                 // Print the board
                 gameBoard.PrintBoard(board);
+                Console.WriteLine("");
 
                 Console.Write($"Player {currentPlayer}, enter your choice (1-9): ");
                 string input = Console.ReadLine();
+                Console.WriteLine("");
+
 
                 int position;
                 bool validInput = int.TryParse(input, out position);
@@ -49,13 +52,17 @@ namespace TicTacToe
                     Console.WriteLine($"Player {currentPlayer} wins!");
                     break;
                 }
+                else if(Array.TrueForAll(board, c => c == 'X' || c == 'O'))
+                {
+                    Console.WriteLine("It's a draw!");
+                    break; 
+                }
 
-                // Switch player
-                currentPlayer = currentPlayer == 1 ? 2 : 1;
+                    // Switch player
+                    currentPlayer = currentPlayer == 1 ? 2 : 1;
             }
 
             Console.WriteLine("\nThanks for playing!");
-            Console.ReadLine();
         }
     }
 }
