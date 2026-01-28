@@ -1,10 +1,61 @@
-﻿// Pair programmers:
-// Remember: don't look at the other pair's code
-// TODO:
-// 1. Welcome the user to the game.
-// 2. Create a game board array to store the players' choices.
-// 3. Ask each player in turn for their choice and update the game board array.
-// 4. Print the board by calling the method in the supporting class (called "Board").
-// 5. Check for a winner by calling the method in the supporting class,
-// and notify the players when a win has occurred and which player won the game.
-Console.WriteLine("Hello, World!");
+﻿using System;
+
+namespace TicTacToe
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Welcome to Tic-Tac-Toe!");
+            Console.WriteLine("Player 1 is X, Player 2 is O\n");
+
+            // Create the game board array
+            char[] board = { '1', '2', '3', '4', '5', '6', '7', '8', '9' };
+
+            Board gameBoard = new Board();
+
+            int currentPlayer = 1;
+            char currentMarker;
+            bool gameWon = false;
+
+            while (!gameWon)
+            {
+                currentMarker = currentPlayer == 1 ? 'X' : 'O';
+
+                // Print the board
+                gameBoard.PrintBoard(board);
+
+                Console.Write($"Player {currentPlayer}, enter your choice (1-9): ");
+                string input = Console.ReadLine();
+
+                int position;
+                bool validInput = int.TryParse(input, out position);
+
+                if (!validInput || position < 1 || position > 9 || board[position - 1] == 'X' || board[position - 1] == 'O')
+                {
+                    Console.WriteLine("Invalid choice. Try again.\n");
+                    continue;
+                }
+
+                // Update board
+                board[position - 1] = currentMarker;
+
+                // Check for winner
+                gameWon = gameBoard.CheckForWinner(board, currentMarker);
+
+                if (gameWon)
+                {
+                    gameBoard.PrintBoard(board);
+                    Console.WriteLine($"Player {currentPlayer} wins!");
+                    break;
+                }
+
+                // Switch player
+                currentPlayer = currentPlayer == 1 ? 2 : 1;
+            }
+
+            Console.WriteLine("\nThanks for playing!");
+            Console.ReadLine();
+        }
+    }
+}
