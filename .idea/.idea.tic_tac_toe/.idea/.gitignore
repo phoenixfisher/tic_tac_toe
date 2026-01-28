@@ -1,15 +1,55 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Rider ignored files
-/projectSettingsUpdater.xml
-/contentModel.xml
-/modules.xml
-/.idea.tic_tac_toe.iml
-# Ignored default folder with query files
-/queries/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
-# Editor-based HTTP Client requests
-/httpRequests/
+# .gitignore for Visual Studio / JetBrains Rider setup with C#
+
+# ================================
+# Build output
+# ================================
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+*.log
+
+# ================================
+# Rider / JetBrains
+# ================================
+.idea/
+*.iml
+
+# ================================
+# Visual Studio
+# ================================
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ================================
+# NuGet
+# ================================
+packages/
+.nuget/
+*.nupkg
+*.snupkg
+
+# ================================
+# Test results / coverage
+# ================================
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# ================================
+# OS junk
+# ================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ================================
+# Local / secrets
+# ================================
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
