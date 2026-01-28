@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TicTacToe
+namespace tic_tac_toe
 {
     class Program
     {

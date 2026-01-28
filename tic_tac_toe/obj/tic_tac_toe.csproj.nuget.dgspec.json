@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Visual Studio Stuff\\repos\\TicTacToe\\newnew\\tic_tac_toe\\tic_tac_toe.csproj": {}
+    "C:\\Users\\allen\\source\\repos\\tic_tac_toe\\tic_tac_toe\\tic_tac_toe.csproj": {}
   },
   "projects": {
-    "C:\\Visual Studio Stuff\\repos\\TicTacToe\\newnew\\tic_tac_toe\\tic_tac_toe.csproj": {
+    "C:\\Users\\allen\\source\\repos\\tic_tac_toe\\tic_tac_toe\\tic_tac_toe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Visual Studio Stuff\\repos\\TicTacToe\\newnew\\tic_tac_toe\\tic_tac_toe.csproj",
+        "projectUniqueName": "C:\\Users\\allen\\source\\repos\\tic_tac_toe\\tic_tac_toe\\tic_tac_toe.csproj",
         "projectName": "tic_tac_toe",
-        "projectPath": "C:\\Visual Studio Stuff\\repos\\TicTacToe\\newnew\\tic_tac_toe\\tic_tac_toe.csproj",
-        "packagesPath": "C:\\Users\\camjw\\.nuget\\packages\\",
-        "outputPath": "C:\\Visual Studio Stuff\\repos\\TicTacToe\\newnew\\tic_tac_toe\\obj\\",
+        "projectPath": "C:\\Users\\allen\\source\\repos\\tic_tac_toe\\tic_tac_toe\\tic_tac_toe.csproj",
+        "packagesPath": "C:\\Users\\allen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\allen\\source\\repos\\tic_tac_toe\\tic_tac_toe\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\camjw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\allen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
