@@ -1,4 +1,4 @@
-namespace tic_tac_toe;
+namespace TicTacToe;
 
 public class Board
 {
@@ -23,7 +23,7 @@ public class Board
         Console.WriteLine($"{board[6]} | {board[7]} | {board[8]}");
     }
 
-    public static bool DetermineWinner(char[] board)
+    public bool DetermineWinner(char[] board)
     {
         // Rows
         if (board[0] == board[1] && board[1] == board[2]) return true;
