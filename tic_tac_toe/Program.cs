@@ -41,7 +41,7 @@ namespace TicTacToe
                 board[position - 1] = currentMarker;
 
                 // Check for winner
-                gameWon = gameBoard.CheckForWinner(board, currentMarker);
+                gameWon = gameBoard.DetermineWinner(board);
 
                 if (gameWon)
                 {
