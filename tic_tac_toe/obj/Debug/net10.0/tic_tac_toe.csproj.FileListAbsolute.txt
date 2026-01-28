@@ -12,3 +12,11 @@
 /Users/phoenixfisher/RiderProjects/tic_tac_toe/tic_tac_toe/obj/Debug/net10.0/tic_tac_toe.pdb
 /Users/phoenixfisher/RiderProjects/tic_tac_toe/tic_tac_toe/obj/Debug/net10.0/tic_tac_toe.genruntimeconfig.cache
 /Users/phoenixfisher/RiderProjects/tic_tac_toe/tic_tac_toe/obj/Debug/net10.0/ref/tic_tac_toe.dll
+C:\Visual Studio Stuff\repos\TicTacToe\newnew\tic_tac_toe\obj\Debug\net10.0\tic_tac_toe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Visual Studio Stuff\repos\TicTacToe\newnew\tic_tac_toe\obj\Debug\net10.0\tic_tac_toe.AssemblyInfoInputs.cache
+C:\Visual Studio Stuff\repos\TicTacToe\newnew\tic_tac_toe\obj\Debug\net10.0\tic_tac_toe.AssemblyInfo.cs
+C:\Visual Studio Stuff\repos\TicTacToe\newnew\tic_tac_toe\obj\Debug\net10.0\tic_tac_toe.csproj.CoreCompileInputs.cache
+C:\Visual Studio Stuff\repos\TicTacToe\newnew\tic_tac_toe\obj\Debug\net10.0\tic_tac_toe.sourcelink.json
+C:\Visual Studio Stuff\repos\TicTacToe\newnew\tic_tac_toe\obj\Debug\net10.0\tic_tac_toe.dll
+C:\Visual Studio Stuff\repos\TicTacToe\newnew\tic_tac_toe\obj\Debug\net10.0\refint\tic_tac_toe.dll
+C:\Visual Studio Stuff\repos\TicTacToe\newnew\tic_tac_toe\obj\Debug\net10.0\tic_tac_toe.pdb
